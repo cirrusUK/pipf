@@ -13,6 +13,9 @@ shools = "^0.1.2"
 [tool.poetry.dev-dependencies]
 black = "^21.7b0"
 
+[tool.poetry.scripts]
+pipi = "pipi.fzf:main"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
