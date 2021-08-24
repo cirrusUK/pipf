@@ -1,4 +1,6 @@
-from . import main
+from subprocess import call
+import os
 
-if __name__ == "__main__":
-    main()
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+call(f"{dir_path}/run.sh", shell=True)
