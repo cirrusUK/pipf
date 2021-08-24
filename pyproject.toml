@@ -1,9 +1,29 @@
 [tool.poetry]
 name = "pipi"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple CLI PyPI packages finder inside Fuzzy Finder."
 authors = ["samedamci <samedamci@disroot.org>"]
 license = "ISC"
+homepage = "https://github.com/samedamci/pipi"
+repository = "https://github.com/samedamci/pipi"
+keywords = ["fzf", "pip", "pypi-finder"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: ISC License (ISCL)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Typing :: Typed",
+]
+include = ["LICENSE", "telegrask/cli/templates/.gitignore"]
 
 [tool.poetry.dependencies]
 python = "^3.6.2"
