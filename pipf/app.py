@@ -3,7 +3,7 @@ import json
 from shools import sed
 
 
-class PiPi:
+class Pipf:
     def __init__(self) -> None:
         pass
 
@@ -19,7 +19,7 @@ class PiPi:
         return json.loads(resp.text)["info"]
 
 
-class FzfPiPi(PiPi):
+class FzfPipf(Pipf):
     def get_package_preview(self, package_name: str) -> str:
         info = self.get_package_info(package_name)
         name = info["name"]

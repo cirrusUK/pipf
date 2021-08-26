@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "pipi"
+name = "pipf"
 version = "0.1.1"
 description = "Simple CLI PyPI packages finder inside Fuzzy Finder."
 authors = ["samedamci <samedamci@disroot.org>"]
 license = "ISC"
-homepage = "https://github.com/samedamci/pipi"
-repository = "https://github.com/samedamci/pipi"
+homepage = "https://github.com/samedamci/pipf"
+repository = "https://github.com/samedamci/pipf"
 keywords = ["fzf", "pip", "pypi-finder"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -34,7 +34,7 @@ shools = "^0.1.2"
 black = "^21.7b0"
 
 [tool.poetry.scripts]
-pipi = "pipi.fzf:__main__"
+pipf = "pipf.fzf:__main__"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
