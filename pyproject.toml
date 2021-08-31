@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pipf"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple CLI PyPI packages finder inside Fuzzy Finder."
 authors = ["samedamci <samedamci@disroot.org>"]
 license = "ISC"
@@ -34,7 +34,7 @@ shools = "^0.1.2"
 black = "^21.7b0"
 
 [tool.poetry.scripts]
-pipf = "pipf.fzf:__main__"
+pipf = "pipf.fzf:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
